@@ -1,0 +1,42 @@
+html, body {
+  font-family: "Noto Sans", sans-serif;
+}
+
+body {
+  background-color: red;
+}
+
+span img {
+  height: 50px;
+  width: 50px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+header nav ul {
+  display: flex;
+  list-style-type: none;
+  gap: 1rem;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: #091420;
+}
+
+.logo {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.contact-button {
+  all: unset;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-color: orange;
+  border: 1px solid darkorange;
+  padding: 4px 8px;
+  border-radius: 16px;
+}/*# sourceMappingURL=index.css.map */

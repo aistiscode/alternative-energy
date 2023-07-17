@@ -1,0 +1,45 @@
+$mainTextColor: #091420;
+
+html, body{
+    font-family: 'Noto Sans', sans-serif;
+}
+
+body{
+    background-color: red;
+}
+
+span img{
+    height: 50px;
+    width: 50px;
+  }
+
+  header{
+   display: flex;
+   justify-content: space-between;
+   nav ul{
+    display: flex;
+    list-style-type: none;
+    gap: 1rem
+   }
+   nav ul li a{
+    text-decoration: none;
+    color: $mainTextColor;
+   }
+}
+
+.logo{
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.contact-button{
+    all: unset;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: orange;
+    border: 1px solid darkorange;
+    padding: 4px 8px;
+    border-radius: 16px;
+}
+    
